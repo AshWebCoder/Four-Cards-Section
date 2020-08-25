@@ -1,0 +1,93 @@
+/*
+
+font-family: 'Poppins', sans-serif;
+*/
+:root{
+    --defaultFont : 'Poppins', sans-serif;
+    --red : hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange : hsl(34, 97%, 64%);
+    --blue :hsl(234, 12%, 34%);
+    --background-color: hsl(0, 0%, 98%);
+    --largeFont :600;
+    --mediumFont : 400;
+    --smallFont: 200;
+
+
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--defaultFont);
+}
+body{
+    background-color: var(--background-color);
+    text-align: center;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 200;
+}
+h3{
+  color:  rgb(105, 105, 105);
+}
+.intro-section{
+        margin: 10px 0px 50px 0px;
+       
+}
+.intro-section p{
+    margin-top: 30px;
+}
+
+
+.sections{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+}
+.section{
+    width: 320px;
+    height: 230px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    background-color: white;
+    box-shadow: 5px 5px 16px gray;
+    border-top: 5px solid black;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+
+.Supervisor{
+    border-top-color:var(--red);
+}
+.Team-Builder{
+    border-top-color: var(--cyan);
+}
+.Karma{
+    border-top-color: var(--orange);
+}
+.Calculator{
+    border-top-color: var(--blue);
+}
+
+
+.section-image img{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+
+
+
+}
